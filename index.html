@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-잡 연구소 - AI 기반 N잡러 교육과정</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <!-- 로고 이미지 자리 -->
+            </div>
+            <ul class="nav-tabs">
+                <li><a href="#hero" class="nav-tab active">홈</a></li>
+                <li><a href="#poster" class="nav-tab">안내</a></li>
+                <li><a href="#about" class="nav-tab">소개</a></li>
+                <li><a href="#application" class="nav-tab">신청</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">N-잡 AI 연구소</h1>
+                <p class="hero-subtitle">AI 기반 N잡러 교육과정 모집</p>
+                <div class="top-banner">
+                    <a href="#application">새로운 시대의 직업을 준비하세요!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Poster Section -->
+    <section id="poster" class="poster">
+        <div class="container">
+            <h2 class="section-title">교육과정 안내</h2>
+            <div class="poster-grid">
+                <div class="poster-item">
+                    <img src="img/youtube.png" alt="유튜브 크리에이터 과정 포스터" class="poster-image" data-course="youtube">
+                    <p class="poster-title">유튜브 크리에이터</p>
+                </div>
+                <div class="poster-item">
+                    <img src="img/book.png" alt="북 크리에이터 과정 포스터" class="poster-image" data-course="book">
+                    <p class="poster-title">북 크리에이터</p>
+                </div>
+                <div class="poster-item">
+                    <img src="img/emoticon.png" alt="이모티콘 디자이너 과정 포스터" class="poster-image" data-course="emoticon">
+                    <p class="poster-title">이모티콘 디자이너</p>
+                </div>
+                <div class="poster-item">
+                    <img src="img/vibe.png" alt="바이브 코딩 과정 포스터" class="poster-image" data-course="vibe">
+                    <p class="poster-title">바이브 코딩</p>
+                </div>
+                <div class="poster-item">
+                    <img src="img/physical.png" alt="피지컬 코딩 교육자 과정 포스터" class="poster-image" data-course="physical">
+                    <p class="poster-title">피지컬 코딩 교육자</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Section -->
+    <section id="about" class="course">
+        <div class="container">
+            <h2 class="section-title">교육과정 소개</h2>
+            <p class="course-intro">생성형 AI로 새로운 가능성을 발견하는 특별한 기회! 변화하는 시대, 새로운 기술로 당신만의 창작 세계를 열어보세요.</p>
+            
+            <div class="course-tabs">
+                <button class="course-tab active" data-course="youtube">유튜브 크리에이터</button>
+                <button class="course-tab" data-course="book">북 크리에이터</button>
+                <button class="course-tab" data-course="emoticon">이모티콘 디자이너</button>
+                <button class="course-tab" data-course="vibe">바이브 코딩</button>
+                <button class="course-tab" data-course="physical">피지컬 코딩 교육자</button>
+            </div>
+
+            <div class="course-content">
+                <!-- 유튜브 크리에이터 과정 -->
+                <div class="course-detail active" id="youtube">
+                    <div class="course-header">
+                        <h3>🎬 유튜브 크리에이터 (영상 제작) 과정</h3>
+                        <p class="course-time">목요일 9:30 ~ 11:30</p>
+                    </div>
+                    <div class="course-info">
+                        <div class="course-features">
+                            <h4>과정 특징</h4>
+                            <ul>
+                                <li>Gemini AI를 활용해 영상 기획과 제작을 쉽게 체험</li>
+                                <li>캡컷으로 자막, 음악, 효과를 넣어 편집 실습 진행</li>
+                                <li>직접 만든 영상을 유튜브에 업로드하며 크리에이터 과정 경험</li>
+                            </ul>
+                        </div>
+                        <div class="course-requirements">
+                            <h4>준비사항</h4>
+                            <p>• 개인 노트북 지참 필수</p>
+                            <p>• Gemini Pro 구독 필수</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 북 크리에이터 과정 -->
+                <div class="course-detail" id="book">
+                    <div class="course-header">
+                        <h3>📚 북 크리에이터 (전자책 제작) 과정</h3>
+                        <p class="course-time">수요일 9:30 ~ 11:30</p>
+                    </div>
+                    <div class="course-info">
+                        <div class="course-features">
+                            <h4>과정 특징</h4>
+                            <ul>
+                                <li>ChatGPT를 활용한 컬러링북 및 그림책 제작</li>
+                                <li>AI 기반 스토리텔링 및 일러스트 생성</li>
+                                <li>전자책 출간 과정 체험</li>
+                            </ul>
+                        </div>
+                        <div class="course-requirements">
+                            <h4>준비사항</h4>
+                            <p>• 개인 노트북 지참 필수</p>
+                            <p>• ChatGPT Plus 구독 필수</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 이모티콘 디자이너 과정 -->
+                <div class="course-detail" id="emoticon">
+                    <div class="course-header">
+                        <h3>😊 이모티콘 디자이너 (디자인 창작) 과정</h3>
+                        <p class="course-time">수요일 2:00 ~ 4:00</p>
+                    </div>
+                    <div class="course-info">
+                        <div class="course-features">
+                            <h4>과정 특징</h4>
+                            <ul>
+                                <li>ChatGPT를 활용한 이모티콘에 적합한 디자인 제작</li>
+                                <li>AI 기반 캐릭터 및 그래픽 디자인</li>
+                                <li>상업적 디자인 활용 방법</li>
+                            </ul>
+                        </div>
+                        <div class="course-requirements">
+                            <h4>준비사항</h4>
+                            <p>• 개인 노트북 지참 필수</p>
+                            <p>• ChatGPT Plus 구독 필수</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 바이브 코딩 과정 -->
+                <div class="course-detail" id="vibe">
+                    <div class="course-header">
+                        <h3>💻 바이브 코딩 (웹웹 개발) 과정</h3>
+                        <p class="course-time">화요일 4:00 ~ 6:00</p>
+                    </div>
+                    <div class="course-info">
+                        <div class="course-features">
+                            <h4>과정 특징</h4>
+                            <ul>
+                                <li>인공지능을 이용해 원하는 홈페이지를를 쉽고 빠르게 제작</li>
+                                <li>직접 아이디어를 반영해 나만의 홈페이지 만들어보는 과정 실습</li>
+                                <li>복잡한 코딩 지식이 없어도 직접 결과물을 만들어내는 경험 제공</li>
+                            </ul>
+                        </div>
+                        <div class="course-requirements">
+                            <h4>준비사항</h4>
+                            <p>• 개인 노트북 지참 필수</p>
+                            <p>• Cursor AI Pro 구독 필수</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 피지컬 코딩 교육자 과정 -->
+                <div class="course-detail" id="physical">
+                    <div class="course-header">
+                        <h3>🤖 피지컬 코딩 교육자 과정</h3>
+                        <p class="course-time">월요일 9:30 ~ 11:30</p>
+                    </div>
+                    <div class="course-info">
+                        <div class="course-features">
+                            <h4>과정 특징</h4>
+                            <ul>
+                                <li>간단한 교구로 코딩 원리를 배우는 과정</li>
+                                <li>AI와 함께 쉬운 프로그래밍 체험</li>
+                                <li>손쉽게 가르쳐줄 수 있는 코딩 교육</li>
+                            </ul>
+                        </div>
+                        <div class="course-requirements">
+                            <h4>준비사항</h4>
+                            <p>• 개인 노트북 지참 필수</p>
+                            <p>• 기본적인 컴퓨터 활용 능력</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-summary">
+                <div class="summary-item">
+                    <h4>📅 교육 기간</h4>
+                    <p>2025년 9월 1일 ~ 9월 18일 <br>(주 1회 2시간)</p>
+                </div>
+                <div class="summary-item">
+                    <h4>🎯 교육 대상</h4>
+                    <p>만 50세 이상 시니어층, <br> AI 기술 초보자</p>
+                </div>
+                <div class="summary-item">
+                    <h4>💰 교육비</h4>
+                    <p>전액 무료 <br>(100% 출석 시 수료증 발급)</p>
+                </div>
+                <div class="summary-item">
+                    <h4>📍 교육 장소</h4>
+                    <p>대구스포츠산업지원센터</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Section -->
+    <section id="application" class="application">
+        <div class="container">
+            <h2 class="section-title">지금 신청하세요</h2>
+            <div class="application-content">
+                <div class="application-left">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeat_qebkHO3wP_hyxWrteZgiuLKxftwRq88ehzNrSkRgOKqg/viewform?usp=dialog" class="cta-button">
+                        신청 바로가기
+                    </a>
+                    <p class="application-note">Google Form을 통해 간편하게 신청하세요</p>
+                </div>
+                <div class="application-right">
+                    <div class="qr-container">
+                        <img src="img/QR.png" alt="신청 QR 코드" class="qr-image">
+                        <p class="qr-text">QR 코드로 모바일에서도 신청 가능</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <p><strong>담당자:</strong> 서희정</p>
+                    <p><strong>연락처:</strong> 010-7322-2726</p>
+                    <p><strong>운영기관:</strong> N-JOB AI (생성형 AI 기반 교육 플랫폼)</p>
+                </div>
+                <div class="footer-section">
+                    <p class="copyright">© 2024 N-잡 연구소. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Poster Modal -->
+    <div id="posterModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="https://via.placeholder.com/800x600/1a1a1a/ffffff?text=교육과정+포스터" 
+                 alt="N-잡 연구소 교육과정 포스터" class="modal-image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
